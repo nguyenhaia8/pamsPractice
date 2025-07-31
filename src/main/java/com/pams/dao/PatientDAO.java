@@ -34,7 +34,7 @@ public class PatientDAO {
 
                 new Patient(
                         UUID.randomUUID(),
-                        "Ana",
+                        "John",
                         "Smith",
                         null,
                         "amsith@te.edu", 
@@ -51,7 +51,6 @@ public class PatientDAO {
                         new MailingAddress("4 East Avenue", "Cleveland", "OH", "32001-9910"),
                         LocalDate.of(2001, 9, 18)
                 ),
-                
         };
     }
 
